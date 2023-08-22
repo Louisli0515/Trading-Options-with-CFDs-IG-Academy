@@ -48,3 +48,29 @@ At IG option prices are set by the dealing desk, based on three key factors:
 * ***The time to expiry*** - the longer an option has before it expires, the more time the underlying asset has to hit the strike price, so the premium will be higher.
 * ***The current level of the underlying market*** - the closer the underlying asset is to the stirke price, the more likely it is to hit and pass the strike price.
 * ***The volatility of the market*** - the more volatile the asset, the more likely it is that the option will hit its strike price. So options in a volatile market will see higher premiums.
+
+## What are the benefits of trading options?
+
+* If the market is rising, you can make money by buying an asset below the market with a call option.
+* Alternatively, if the market is falling, a put option lets you sell an asset at a set price above the market.
+* If the markets go flat, with many forms of trading there's not a lot you can do except hold on and hope things improve.
+
+### Harnessing levverage
+
+* Options enable you to trade using ***leverage***, meaning that the amount you pay to open is only a fraction of your trade's potential full value. This enables you to command a large position in a market with comparatively small payment.
+
+### How are options used?
+
+* ***Speculating with options***
+* ***Hedging***: You could buy an option to sell the stock at a price that's close to its current level. Then if the stock's price falls, you can exericse your option and limit your losses. If your stock's price increases, then you have only lost the cost of buying the option in the first place.
+* ***Profiting from volatility***
+
+## How are options priced?
+
+Some options are more expensive than others. Why is this?
+
+* ***Underlying price***: Remember calls are right to buy, so sometimes the right to buy at the lower price is more desirable than the right to buy at the higher price, and so the value is greater.
+* ***Time left to expiry***: The extra premium on top of the intrinsic value is called the ***time value***. The longer the time remaining to expiry, the greater the chance of further movements in the underlying asset and therefore the greater probability that the option may acquire intrinsic value.
+* ***Option premium = intrinsic value + time value***: Options which have intrinsic value are described as being ***in the money***; Options which have no intrinsic value, and therefore only have time value, are described as being ***out of the money***; ***At the money*** is simply the option which has the closet strike price to the price of the underlying asset.
+* ***Time decay***: the more time left to expiry, the more an option will cost. In other words, 
+the time value of an option decays as the expiry draws closer, while the rate of decay increases ans
