@@ -73,4 +73,12 @@ Some options are more expensive than others. Why is this?
 * ***Time left to expiry***: The extra premium on top of the intrinsic value is called the ***time value***. The longer the time remaining to expiry, the greater the chance of further movements in the underlying asset and therefore the greater probability that the option may acquire intrinsic value.
 * ***Option premium = intrinsic value + time value***: Options which have intrinsic value are described as being ***in the money***; Options which have no intrinsic value, and therefore only have time value, are described as being ***out of the money***; ***At the money*** is simply the option which has the closet strike price to the price of the underlying asset.
 * ***Time decay***: the more time left to expiry, the more an option will cost. In other words, 
-the time value of an option decays as the expiry draws closer, while the rate of decay increases ans
+the time value of an option decays as the expiry draws closer, while the rate of decay increases as an option approaches expiry.
+* ***Strike price***: At-the-money options will always have the greatest time value.
+* *** Volatility***: If the volatility of security is high, there is a greater risk for an option writer, and they will demand higher premiums. If the volatility is low, the premiums required will be reduced.
+
+### Interest rates and dividends
+
+* The effect of changes in interest rates tends to be insignificant. Dividends paid out to shareholders by a company will cause the share price to drop by the amount of the dividend.
+* Consequently, this will affect the price of options on that share.
+* However, as the drop in share price is predictable, the impact of the fall will be priced into the premium well in advance.
