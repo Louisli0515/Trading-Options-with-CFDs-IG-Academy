@@ -127,10 +127,10 @@ The rewards are, in theory at least, unlimited when you buy a call option. The v
 
 Imagine that the FTSE 100 is trading at 6500. Let's say that you buy a 6150 put option for a premium of 50 points. This means you have the right to sell at 6150 on the expiry date.
 
-<img width = 75% height = 75% sec = https://github.com/Louisli0515/Trading-Options-with-CFDs-IG-Academy/assets/128298224/12cef199-25c7-4401-8ec8-8a8c9307343a>
-
 
 There are again several things that can happen by the point of expiry:
 
 * Let's say that the expiry price is 6030. The right to sell at 6150 is worth 120 points. The option cost 50 points of premium, so that overall, the profit is 120 - 50 = 70 points.
 * The breakeven point is 6100. Between 6100 and 6150 the option still has some value, which will be just enough to help recoup the premium paid. Above this, the option would be worthless. The loss would be the premium: 50 points.
+
+<img width = 75% height = 75% src = https://github.com/Louisli0515/Trading-Options-with-CFDs-IG-Academy/assets/128298224/12cef199-25c7-4401-8ec8-8a8c9307343a>
