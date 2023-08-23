@@ -149,7 +149,7 @@ A short call option can therefore create a limiteed profit in a short time.
 
 The option seller makes a profit as long as the underlying price is below the strike price + the premium collected. The option buyer can profit only if the underly price goes above the strike price + the premium paid.
 
-## Selling a call
+### Selling a call
 
 This is a strategy that you might use if you were bearish about the prospects of the underlying market or if you thought the price was likely to stay the same.
 
@@ -157,4 +157,15 @@ The profit/loss profile of a sold call is the mirror image of the profile of a l
 
 Let's take another example using the FTSE 100, with a strike price of 6500 and a 35-point premium, and look at the value of the sold call for different levels at expiry:
 
+<img width = 75% height = 75% src = https://github.com/Louisli0515/Trading-Options-with-CFDs-IG-Academy/assets/128298224/9f8a32bc-eb29-4c1d-98bd-5c0dc26c113e>
 
+If the underlying market is above the breakeven point of 6535 at expiry, you'll lose overall on the trade. If it expires at 6500 or below, you'll make a profit equal to the premium.
+
+* Selling, or writing, a call option is a risky strategy. Your potential risk is unlimited, as the underlying price could theoretically increase to infinitey. If the market rises rapidly, you could suddenly find yourself with a runaway, uncapped loss.
+* The maximum possible profit for writing an option is the premium.
+
+### Selling a put
+
+You would use this strategy if you had a neutral-to-bullish outlook for a particular market - so you thought the price was likely to stay the same or to rise.
+
+The profit/loss profile for selling a put is exactly the opposite of the profile for buying a put. 
