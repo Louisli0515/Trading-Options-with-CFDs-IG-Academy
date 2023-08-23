@@ -169,3 +169,12 @@ If the underlying market is above the breakeven point of 6535 at expiry, you'll 
 You would use this strategy if you had a neutral-to-bullish outlook for a particular market - so you thought the price was likely to stay the same or to rise.
 
 The profit/loss profile for selling a put is exactly the opposite of the profile for buying a put. 
+
+<img width = 75% height = 75% src = https://github.com/Louisli0515/Trading-Options-with-CFDs-IG-Academy/assets/128298224/ab5d9a46-b91b-4fbc-b08e-69e7e45eae81>
+
+Let's consider the FTSE option with a strike price at 6150 and a 50-point premium.
+
+If the FTSE is at or above 6100 on expiry, you'll make a profit. If not, you'll make a loss. Your maximum profit will be achieved if the FTSE is at or above 6150 on expiry.
+
+* Selling a put option involves substantial risk, although your potential loss isn't completely unlimited, as it is when you sell a call option. The worst-case scenario occurs if the underlying asset drops to 0. This would give you a loss equal to the strick price - the premium.
+* The maximum reward is the premium. 
