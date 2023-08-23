@@ -134,3 +134,27 @@ There are again several things that can happen by the point of expiry:
 * The breakeven point is 6100. Between 6100 and 6150 the option still has some value, which will be just enough to help recoup the premium paid. Above this, the option would be worthless. The loss would be the premium: 50 points.
 
 <img width = 75% height = 75% src = https://github.com/Louisli0515/Trading-Options-with-CFDs-IG-Academy/assets/128298224/12cef199-25c7-4401-8ec8-8a8c9307343a>
+
+You may not want to wait until expiry. The risk is limited to the premium when buying a put, the same as when buying a call.
+
+The value of the right to sell increases as the underlying price drops. You would make the maximum profit if the underlying asset price fell to 0.
+
+## Selling options
+
+Selling a call, also known as making a short call or written call, can generate a profit when a long call (buying an option) would result in making a making a loss and vice versa.
+
+The reason is that options are a decaying asset. Their value decays with the passage of time and they expire. This time decay works in your favour if you are an option seller. That's because the less time until expiry, the less chance the option has to go in the money. The option price becomes less valuable to the holder each day - befefiting the option seller.
+
+A short call option can therefore create a limiteed profit in a short time.
+
+The option seller makes a profit as long as the underlying price is below the strike price + the premium collected. The option buyer can profit only if the underly price goes above the strike price + the premium paid.
+
+## Selling a call
+
+This is a strategy that you might use if you were bearish about the prospects of the underlying market or if you thought the price was likely to stay the same.
+
+The profit/loss profile of a sold call is the mirror image of the profile of a long call.
+
+Let's take another example using the FTSE 100, with a strike price of 6500 and a 35-point premium, and look at the value of the sold call for different levels at expiry:
+
+
