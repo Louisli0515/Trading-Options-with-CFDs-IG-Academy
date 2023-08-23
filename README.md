@@ -55,7 +55,7 @@ At IG option prices are set by the dealing desk, based on three key factors:
 * Alternatively, if the market is falling, a put option lets you sell an asset at a set price above the market.
 * If the markets go flat, with many forms of trading there's not a lot you can do except hold on and hope things improve.
 
-### Harnessing levverage
+### Harnessing leverage
 
 * Options enable you to trade using ***leverage***, meaning that the amount you pay to open is only a fraction of your trade's potential full value. This enables you to command a large position in a market with comparatively small payment.
 
@@ -77,8 +77,42 @@ the time value of an option decays as the expiry draws closer, while the rate of
 * ***Strike price***: At-the-money options will always have the greatest time value.
 * *** Volatility***: If the volatility of security is high, there is a greater risk for an option writer, and they will demand higher premiums. If the volatility is low, the premiums required will be reduced.
 
+
 ### Interest rates and dividends
 
 * The effect of changes in interest rates tends to be insignificant. Dividends paid out to shareholders by a company will cause the share price to drop by the amount of the dividend.
 * Consequently, this will affect the price of options on that share.
 * However, as the drop in share price is predictable, the impact of the fall will be priced into the premium well in advance.
+
+## Managing the risks of options trading
+
+* Properly used, options can help cap your risks.
+
+### Buying an option
+
+* When buying an option - either call or put - your maximum risk is equal to the premium paid. This is simply calculated as trade size multiplied by price.
+* Buying options is therefore limited-risk, with a potential profit that is in theory uncapped if you buy a call.
+
+### Selling an option
+
+ * When you sell options, you receive the premium rather than pay it.
+ * When you sell a put, the worst-case scenario is that the price of the asset falls to zero.
+
+### Four other things to consider before trading options
+
+* ***Complicated market***;
+* ***Price volatility***: the more likely it is that an option will move above (calls) or below (puts) its strike price, the higher its premium will be.
+* ***Time decay***: the value will diminish as it draws closer to expiring, making options extremely time sensitive.
+
+## Buying options - some examples
+
+### Buying a call
+
+Imagine that an option on the FTSE 100 has a strike price of 6500. Let's say that the option has a preimum of 35. The expiry date is the third Friday in March.
+
+There are several things that can happen by the point of expiry:
+
+* On expiry, the price of the FTSE has risen from 6300 to 6453. The right to buy at 6500 is therefore worth nothing (it would cost more than buying the asset). You lose the premium paid.
+* If the expiry price has risen to 6500, the index has reached the strike price of the option, but there is still no point in paying anything for the right to buy at the current level of the market. You still lose all of the premium paid.
+* If the expiry has risen to 6530, say, the 6500 call would worth 30 points - the right to buy at 6500 has to be valued at 30 - the difference between the option and the actual price. However, this might not be enough of a difference to show a profit. You need to cover the cost of the premium.
+* If the expiry is at 6535, the 6500 call would be worth 35 points. This is enough to cover your preimum - anything above it provides a real profit.
