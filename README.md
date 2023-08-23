@@ -116,3 +116,18 @@ There are several things that can happen by the point of expiry:
 * If the expiry price has risen to 6500, the index has reached the strike price of the option, but there is still no point in paying anything for the right to buy at the current level of the market. You still lose all of the premium paid.
 * If the expiry has risen to 6530, say, the 6500 call would worth 30 points - the right to buy at 6500 has to be valued at 30 - the difference between the option and the actual price. However, this might not be enough of a difference to show a profit. You need to cover the cost of the premium.
 * If the expiry is at 6535, the 6500 call would be worth 35 points. This is enough to cover your preimum - anything above it provides a real profit.
+
+<img width = 75% height = 75% src = https://github.com/Louisli0515/Trading-Options-with-CFDs-IG-Academy/assets/128298224/d7f2cc6c-7632-4c6c-a321-4d4ef97406d2>
+
+If you buy a call option, the risk is limited to the premium. 
+
+The rewards are, in theory at least, unlimited when you buy a call option. The value of the call will increase with the value of the underlying asset, and the higher it goes, the greater the profits. Remember to deduct the premium of the call to calculate your profits.
+
+### Buying a put
+
+Imagine that the FTSE 100 is trading at 6500. Let's say that you buy a 6150 put option for a premium of 50 points. This means you have the right to sell at 6150 on the expiry date.
+
+There are again several things that can happen by the point of expiry:
+
+* Let's say that the expiry price is 6030. The right to sell at 6150 is worth 120 points. The option cost 50 points of premium, so that overall, the profit is 120 - 50 = 70 points.
+* The breakeven point is 6100. Between 6100 and 6150 the option still has some value, which will be just enough to help recoup the premium paid. Above this, the option would be worthless. The loss would be the premium: 50 points.
