@@ -178,3 +178,20 @@ If the FTSE is at or above 6100 on expiry, you'll make a profit. If not, you'll 
 
 * Selling a put option involves substantial risk, although your potential loss isn't completely unlimited, as it is when you sell a call option. The worst-case scenario occurs if the underlying asset drops to 0. This would give you a loss equal to the strick price - the premium.
 * The maximum reward is the premium. 
+
+## An introduction to the Greeks
+
+* The Greeks are the measures of individual risks associated with trading options, so called because each one is identified by a Greek letter.
+
+The main Greeks we will be using are:
+
+* ***Delta***: the ratio that compares the change in the price of an asset to the corresponding change in the price of its option; It shows how much an option's price moves for every point of movement in the underlying asset. So delta is a measure of how movement in the underlying market will impact the price of your option, otherwise known as directional risk.
+* Delta is often used in hedging strategies and is also referred to as the hedge ratio.
+* Delta values can be positive or negative. The delta for a call option always ranges from 0 to 1. because as the underlying asset increases in price, call options increase in price.
+* Put option deltas always range from -1 to 0, because as the underlying security increases, the value of put options decreases.
+* ***In-the-money*** call options get closer to 1 as their expiry approaches.
+* ***At-the-money*** options typically have a delta of 0.5, and the delta of ***out-of-the-money*** call options approaches 0 as expiry nears. The ***deeper*** in the money the call option, the ***closer*** the delta will be to 1, and the more the option will behave like the underlying asset.
+* ***Vega***: how much an option's price moves when the volatility of the underlying asset changes. Vega represents the amount that an option contract's price changes in reaction to a 1% change in the implied volatility of the underlying asset. Vega changes when there are large price movements (increased volatility) in the underlying asset, and falls as the option approaches expiry.
+* When you own options, you have a positive vega, whereas writing options carries a negative vega.
+* ***Theta***: How much an option's price declines over time. It can also be referred to as an option's time decay. An option generally loses value as time moves closer to the maturity of the option. Thata is a negative number and can be thought of as the amount by which an option's value will decline every day.
+* An option with high delta (usually one with a short-term expiry) will rapidly depreciate in value as it nears expiry.
