@@ -226,6 +226,8 @@ What about a short straddle?
 * With a short straddle you can benefit if volatility collapses, by selling both the calls and puts. The strategy behind the short straddle is reaching a breakeven point where the underlying asset is either at the money (the strike price) or out of the money. This would be below the strike price for a call option but above the strike price for a put option. In either case, the option contract would expire worthless. The gain for you will be the profit you collect from the option premium.
 * The risk in a short straddle strategy is unlimited, as the underlying asset price could move up or down well beyond the strike price of either option.
 
+<img width = 75% height = 75% src = "https://github.com/Louisli0515/Trading-Options-with-CFDs-IG-Academy/assets/128298224/172cf48d-6322-41f6-a78f-6e081f2c5023">
+
 ### Strangle
 
 * A strangle is a similar strategy, but there you buy a call with a slightly higher strike price than the put. This means that you need a larger price move to profit, but you will typically pay less to open the trade because both options are purchased when out of the money.
