@@ -233,6 +233,8 @@ What about a short straddle?
 * A strangle is a similar strategy, but there you buy a call with a slightly higher strike price than the put. This means that you need a larger price move to profit, but you will typically pay less to open the trade because both options are purchased when out of the money.
 * A strangle purchase involves puts and calls that are separated by at least one strike price in the same time period.
 
+<img width = 75% height = 75% src = "https://github.com/Louisli0515/Trading-Options-with-CFDs-IG-Academy/assets/128298224/b84f31c9-f0c3-4dde-8d5a-eea214d20c09">
+
 Long strangle
 
 * Strangles can be either long or short.
@@ -247,6 +249,8 @@ Short strangle
 
 * In a short strangle, you are selling the calls and puts. You are predicting the underlying price will show little volatility, remaining somewhere between both strikes you select, so that the options you sell with expire worthless.
 * The profit potential is limited to the net credit you earn from the premium you collect. But the risk is virtually unlimited because, in a worst-case scenario, you would be responsible for the options.
+
+<img width = 75% height = 75% src = "https://github.com/Louisli0515/Trading-Options-with-CFDs-IG-Academy/assets/128298224/417d57e5-71cb-4ff3-a780-9ab54f90e4b0">
 
 What about the risk?
 
