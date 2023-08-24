@@ -195,3 +195,56 @@ The main Greeks we will be using are:
 * When you own options, you have a positive vega, whereas writing options carries a negative vega.
 * ***Theta***: How much an option's price declines over time. It can also be referred to as an option's time decay. An option generally loses value as time moves closer to the maturity of the option. Thata is a negative number and can be thought of as the amount by which an option's value will decline every day.
 * An option with high delta (usually one with a short-term expiry) will rapidly depreciate in value as it nears expiry.
+
+## Simple strategy 1: trading delta
+
+* Delta is a measure of how movement in the underlying market will impact the price of your option.
+
+### Delta spread
+
+* With delta spread you establish a delta-neutral position by simultaneously buying and selling options in proportion to the neutral ratio.
+* In other words, the positive and negative deltas offset each other, so that the overall delta of the assets in question totals zero.
+* The most common delta spread is a ***calendar spread***. This invovles constructing a delta-neutral position using options with ***different expiry dates***.
+
+### What is the risk?
+
+* With a delta spread, the maximum loss is approximately limited to the premium paid, but can increase if the underlying has a large move and the delta of the optiosn changes.
+
+## Simple strategy 2: straddle and strangle
+
+While delta spreads let you take advantage of static markets, buying a straddle or a strangle allows you to maximise your profit when the market is volatile. The more volatile it is and the more the market moves in one direction, the greater your profits can be.
+
+### How to use a straddle
+
+* A straddle involves simultaneously buying both a put and a call option on the same market, with the same strike price and expiry. By doing this you can profit from volatility, regardless of whether the underlying market moves up or down. But there is a risk - if no volatility occurs, you'll lose your premium.
+* A straddle purchases puts and calls with the same strike price and time period.
+
+
+What about a short straddle?
+
+* With a short straddle you can benefit if volatility collapses, by selling both the calls and puts. The strategy behind the short straddle is reaching a breakeven point where the underlying asset is either at the money (the strike price) or out of the money. This would be below the strike price for a call option but above the strike price for a put option. In either case, the option contract would expire worthless. The gain for you will be the profit you collect from the option premium.
+* The risk in a short straddle strategy is unlimited, as the underlying asset price could move up or down well beyond the strike price of either option.
+
+### Strangle
+
+* A strangle is a similar strategy, but there you buy a call with a slightly higher strike price than the put. This means that you need a larger price move to profit, but you will typically pay less to open the trade because both options are purchased when out of the money.
+* A strangle purchase involves puts and calls that are separated by at least one strike price in the same time period.
+
+Long strangle
+
+* Strangles can be either long or short.
+* In a long strangle, you buy the calls and puts. The strategy is to profit if the underlying asset makes a move in either direction. You'd use a long strangle if you're expecting the underlying security to make significant price moves, such as in advace of an earnings announcement. Your profit potential is virtually unlimited, and your risk is limited to the option price you pay.
+
+What about the risks vs the rewards?
+
+* With a long strangle strategy, the maximum profit is unlimited because, theoretically, there is no limit to how high the underlying asset's value can rise. On the put side, the underlying price can only go to zero, capping your profit if it does so.
+* However, your risk is limited to the option premium.
+
+Short strangle
+
+* In a short strangle, you are selling the calls and puts. You are predicting the underlying price will show little volatility, remaining somewhere between both strikes you select, so that the options you sell with expire worthless.
+* The profit potential is limited to the net credit you earn from the premium you collect. But the risk is virtually unlimited because, in a worst-case scenario, you would be responsible for the options.
+
+What about the risk?
+
+* As the seller of the option, your maximum risk is virtually unlimited.
