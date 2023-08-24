@@ -219,6 +219,7 @@ While delta spreads let you take advantage of static markets, buying a straddle 
 * A straddle involves simultaneously buying both a put and a call option on the same market, with the same strike price and expiry. By doing this you can profit from volatility, regardless of whether the underlying market moves up or down. But there is a risk - if no volatility occurs, you'll lose your premium.
 * A straddle purchases puts and calls with the same strike price and time period.
 
+<img width = 75% height = 75% src = "https://github.com/Louisli0515/Trading-Options-with-CFDs-IG-Academy/assets/128298224/acf257dd-bc35-413a-8d75-46b9beaf5936">
 
 What about a short straddle?
 
