@@ -107,7 +107,7 @@ Some options are more expensive than others. Why is this?
 * ***Time decay***: the more time left to expiry, the more an option will cost. In other words, 
 the time value of an option decays as the expiry draws closer, while the rate of decay increases as an option approaches expiry.
 * ***Strike price***: At-the-money options will always have the greatest time value.
-* *** Volatility***: If the volatility of security is high, there is a greater risk for an option writer, and they will demand higher premiums. If the volatility is low, the premiums required will be reduced.
+* ***Volatility***: If the volatility of security is high, there is a greater risk for an option writer, and they will demand higher premiums. If the volatility is low, the premiums required will be reduced.
 
 
 ### Interest rates and dividends
