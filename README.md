@@ -1,6 +1,38 @@
 # Trading-Options-with-CFDs-IG-Academy
 IG Academy -- Trading Options with CFDs
 
+- [Trading-Options-with-CFDs-IG-Academy](#trading-options-with-cfds-ig-academy)
+  * [What are options?](#what-are-options-)
+    + [How options work](#how-options-work)
+    + [How options can generate a profit](#how-options-can-generate-a-profit)
+    + [Understanding the terms](#understanding-the-terms)
+    + [What does options trading cost?](#what-does-options-trading-cost-)
+    + [How do options prices work?](#how-do-options-prices-work-)
+  * [What are the benefits of trading options?](#what-are-the-benefits-of-trading-options-)
+    + [Harnessing leverage](#harnessing-leverage)
+    + [How are options used?](#how-are-options-used-)
+  * [How are options priced?](#how-are-options-priced-)
+    + [Interest rates and dividends](#interest-rates-and-dividends)
+  * [Managing the risks of options trading](#managing-the-risks-of-options-trading)
+    + [Buying an option](#buying-an-option)
+    + [Selling an option](#selling-an-option)
+    + [Four other things to consider before trading options](#four-other-things-to-consider-before-trading-options)
+  * [Buying options - some examples](#buying-options---some-examples)
+    + [Buying a call](#buying-a-call)
+    + [Buying a put](#buying-a-put)
+  * [Selling options](#selling-options)
+    + [Selling a call](#selling-a-call)
+    + [Selling a put](#selling-a-put)
+  * [An introduction to the Greeks](#an-introduction-to-the-greeks)
+  * [Simple strategy 1: trading delta](#simple-strategy-1--trading-delta)
+    + [Delta spread](#delta-spread)
+    + [What is the risk?](#what-is-the-risk-)
+  * [Simple strategy 2: straddle and strangle](#simple-strategy-2--straddle-and-strangle)
+    + [How to use a straddle](#how-to-use-a-straddle)
+    + [Strangle](#strangle)
+
+
+
 ## What are options?
 
 * An option is a contract that lets you trade on the future value of a particular financial asset.
